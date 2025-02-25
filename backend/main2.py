@@ -34,7 +34,7 @@ app.add_middleware(
 
 # ------------------- MongoDB Connection -------------------
 MONGO_URI = os.getenv("MONGO_URI")
-print(MONGO_URI)
+# print(MONGO_URI)
 DATABASE_NAME = "App"
 COLLECTION_NAME = "questions"
 
